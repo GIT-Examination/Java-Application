@@ -6,11 +6,9 @@ package lk.ijse.javaApplication.controller;
 
 import lk.ijse.javaApplication.db.DBConnection;
 import lk.ijse.javaApplication.model.Customer;
-
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
+
 
 /**
  * @author Ravindu Lakshan <ravindulakshan877@gmail.com>
