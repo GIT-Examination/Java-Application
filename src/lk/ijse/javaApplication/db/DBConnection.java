@@ -1,6 +1,7 @@
 /*
  * Copyright (c)  2020-present, Sri lanka
  */
+
 package lk.ijse.javaApplication.db;
 
 import java.sql.Connection;
@@ -17,7 +18,7 @@ public class DBConnection {
 
     private DBConnection() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.jdbc.Driver");
-        connection= DriverManager.getConnection("jdbc:mysql://localhost:3306/###","root","1234");
+        connection= DriverManager.getConnection("jdbc:mysql://localhost:3306/supermarket","root","1234");
     }
 
     public static DBConnection getInstance() throws SQLException, ClassNotFoundException {

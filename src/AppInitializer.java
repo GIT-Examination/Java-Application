@@ -21,7 +21,7 @@ public class AppInitializer extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         primaryStage.initStyle(StageStyle.TRANSPARENT);
-        Scene scene = new Scene(FXMLLoader.load(this.getClass().getResource("lk/ijse/javaApplication/view/CustomerSaveForm.fxml")));
+        Scene scene = new Scene(FXMLLoader.load(this.getClass().getResource("lk/ijse/javaApplication/view/ItemSaveForm.fxml")));
         scene.setFill(Color.TRANSPARENT);
         primaryStage.setScene(scene);
         primaryStage.show();
